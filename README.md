@@ -1,6 +1,13 @@
 # customer-churn-prediction
+## PROBLEM STATEMENT :
 This project involves developing models that can predict which customers are likely to leave a company's service or products in the near future.
 This prediction helps the businesses take a proactive measures to retain those customers, thus, reducing the churn and maintain a healthier customer base.
+## WHY IS IT IMPORTANT TO SOLVE IT?
+## 1. Business sustainability - high customer churn can be detrimental to a company's long term sustainability. A healthy customer base sustainability 
+## supports the ongoing business growth.
+## 2. customer relationship - Churn prediction indicates the customer dissatisfaction, so by addressing these issues business can improve their products, services.
+## 3. data-driven strategies - It helps in data -driven decision making on the basis of the customer behaviour that helps in business progress.
+## Now, before getting into solution of this problem lets collect insights from the dataset.
 ## 1. checking the null values
 ![image](https://github.com/sshreyaa05/customer-churn-prediction/assets/132264752/a9e3e571-8032-48d8-aeb4-bd1c677bb6cf)
 ## as we can see that there is no null values in the dataset.
@@ -21,6 +28,7 @@ This prediction helps the businesses take a proactive measures to retain those c
 ## 6. Histogram showing the frequency distribution of support calls
 ![image](https://github.com/sshreyaa05/customer-churn-prediction/assets/132264752/0c2df241-8de2-42aa-a51a-bdfd15393af8)
 ## we can say that the support calls, in the interval of 9-10 has the highest frequency.
+## NOW,TO SOLVE THIS PROBLEM WE NEED A ROBUST MODEL THAT GOING TO GIVE US THE ACCURATE SOLUTION, SO LETS GET STARTED WITH THE ENSEMBLE LEARNING 
 ## now, after the model training and tesing, we come up with the best evaluated model which is the xgboost classifier or the random forest classifier
 ## with the highest recall value of 1.00, thereby displaying the confusion matrix of both the models
 ## random forest classifier
